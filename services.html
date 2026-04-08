@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Services|Exact Exhaust</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header>
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="images/exact logo.png" alt="Exact Exhaust logo">
+                </a>
+                
+                <input type="checkbox" id="toggler">
+                <label for="toggler" class="d-lg-none">☰</label>
+                
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="diagnostics.html">Diagnostics</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <h3>The services we provide include:</h3>
+            <div class="service-grid">
+                <div class="service-info">
+                    <h3>Oil Change</h3>
+                    <img src="images/oilchange.jpg" alt="oilchange photo">
+                    <p>Keep your engine running smoothly with our quick oil change service.</p>
+                </div>
+            
+            <div class="service">
+                <h3>Brake Repair</h3>
+                <img src="images/brake.jpg" alt="brake repair photo">
+                <p>Complete brake inspection and repair for your safety.</p>
+            </div>
+
+            <div class="service">
+                <h3>Tire Service</h3>
+                <img src="images/tire.jpg" alt="tire service photo">
+                <p>Rotation, balancing, and replacement for all tire types.</p>
+                </div>
+            
+
+            <div class="service">
+                <h3>Exhaust fitment</h3>
+                <img src="images/exhaust.jpg" alt="Exhaust photo">
+                <p>Our specialty is the fitment of exhaust</p>
+            </div>
+
+            <div class="service">
+                <h3>Suspesion service and repair</h3>
+                <img src="images/suspension.jpg" alt="suspencion repair photo">
+                <p>Servicing,repair and maintenance suspesion</p>
+            </div>
+
+            <div class="service">
+                <h3>Wielding and fabrication</h3>
+                <img src="images/wield.jpg" alt="weilding photo">
+                <p>Provision of wielding service for hire</p>
+            </div>
+            <div class="service">
+                <h3>Major and minor repair</h3>
+                <img src="images/repair.jpg" alt="repair photo">
+                <p>We do any major and minor repair whithin our abilities and direct you to relevant companies </p>
+            </div>
+
+            <div class="service">
+                <h3>Routine maintenance</h3>
+                <img src="images/maintenance.jpg" alt="maintenance photo">
+                <p>We do small maintenancechecks such as spark plug changes, fluid checks</p>
+            </div>
+
+            <div class="service">
+                <h3>Troubleshooting services</h3>
+                <img src="images/Troubleshooting.jpg" alt="Troubleshooting photo">
+                <p>Find out what may be the problem with your vehivle even without reapair</p>
+            </div>
+
+            </div>
+        </section>
+    
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                        <li><a href="diagnostics.html">Diagnostics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Lobatse, Plot 2610 Woodhall Industrial</p>
+                    <p>Phone: <a href="tel:5334343">533 4343</a></p>
+                    <p>Mon-Fri: 8am - 5pm</p>
+                    <p>Sat: 8:30am - 12pm</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <a href="https://web.facebook.com/profile.php?id=61561977374060" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i> Facebook
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="year"></span> Exact Exhaust. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            // Auto-update copyright year
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>
